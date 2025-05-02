@@ -1,3 +1,4 @@
+# Internet Is Reequired For Validating The mail ID Of The Participants.
 import re
 import dns.resolver
 
@@ -15,9 +16,11 @@ def is_valid_email(email):
     except Exception:
         return False
 
-# Example
+# TestCases
 print(is_valid_email("laxminayanan546@gmail.com"))    # True
 print(is_valid_email("suradalokesh2005@gmail.com"))    # True
 print(is_valid_email("nayanancsit@gmail.com"))    # True
 print(is_valid_email("nithishreddyakiti08@gmail.com"))    # True
+print(is_valid_email("venkateshvenkatesh84085@gmail.com"))    # True
+print(is_valid_email("madhuyadhav118@gmail.com"))    # True
 print(is_valid_email("test@nonexistent.tld")) # False
