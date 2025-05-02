@@ -8,6 +8,7 @@ data = [
 
 # Converting To The DataFrame
 df = pd.DataFrame(data, columns=['TotalMarks', 'Split1', 'Split2', 'Split3', 'Split4', 'Split5', 'Split6'])
+print(df)
 
 # Save to Excel
 excel_filename = "marksSplit_data.xlsx"

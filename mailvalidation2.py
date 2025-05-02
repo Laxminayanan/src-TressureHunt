@@ -19,5 +19,4 @@ def is_valid_email(email):
 print(is_valid_email("laxminayanan546@gmail.com"))    # True
 print(is_valid_email("suradalokesh2005@gmail.com"))    # True
 print(is_valid_email("nayanancsit@gmail.com"))    # True
-print(is_valid_email("nithishreddyakiti08@gmail.com"))    # True
 print(is_valid_email("test@nonexistent.tld")) # False
