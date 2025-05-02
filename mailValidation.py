@@ -16,11 +16,9 @@ def is_valid_email(email):
     except Exception:
         return False
 
-# TestCases
-# print(is_valid_email("laxminayanan546@gmail.com"))    # True
-# print(is_valid_email("suradalokesh2005@gmail.com"))    # True
-# print(is_valid_email("nayanancsit@gmail.com"))    # True
-# print(is_valid_email("nithishreddyakiti08@gmail.com"))    # True
-# print(is_valid_email("venkateshvenkatesh84085@gmail.com"))    # True
-# print(is_valid_email("madhuyadhav118@gmail.com"))    # True
-# print(is_valid_email("test@nonexistent.tld")) # False
+# Example
+print(is_valid_email("laxminayanan546@gmail.com"))    # True
+print(is_valid_email("suradalokesh2005@gmail.com"))    # True
+print(is_valid_email("nayanancsit@gmail.com"))    # True
+print(is_valid_email("nithishreddyakiti08@gmail.com"))    # True
+print(is_valid_email("test@nonexistent.tld")) # False
